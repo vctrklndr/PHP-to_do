@@ -1,16 +1,13 @@
 body{
-    margin: 0px auto;
+    margin: 20px 0px 0px 0px;
     background-color: #f6f5de;
     font-family: 'Fira Sans', sans-serif;    
     text-align: center;
     width: 100%;
 }
 
-header{
-    background: #100000;
-    color: #f6f5de;
-    padding: 20px 0px;
-    margin-bottom: 20px;
+h1{
+    margin: 0px;
 }
 
 .reload a,
@@ -19,9 +16,21 @@ header{
     text-decoration: none;
 }
 
-a, a:hover{
+a{
     color: #100000;
     text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+button {
+    background-color: #f6f5de;
+    border: none;
+    color: #100000;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 table{
@@ -30,14 +39,18 @@ table{
     text-align: left;
 }
 
-.padding{
-    padding-left: 4px;
+.to_do_container, .complete_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title, .author{
     font-family: 'Work Sans', sans-serif;
     font-size: 0.9em;
     padding-right: 40px;
+    width: 200px;
+    text-align: left;
 }
 
 .author{
@@ -46,11 +59,18 @@ table{
 
 .add_wrapper{
     padding: 10px;
-    margin: 0px 0px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.entry{
+    font-size: 0.9em;
+    padding: 5px;
 }
 
 .button_container{
-    margin-top: 15px;
     display: flex;
     justify-content: center;
 }
@@ -84,12 +104,8 @@ input[type=submit],
     margin-left: 5px;
 }
 
-.entry{
-    font-size: 0.9em;
-    padding-right: 20px;
-}
-
 .success_message{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
@@ -97,7 +113,6 @@ input[type=submit],
 .new_post_message{
     width: 300px;
     background-color: #fff;
-    margin-bottom: 20px;
 }
 
 .footer{
@@ -105,12 +120,4 @@ input[type=submit],
     margin-top: 40px;
     background-color: #eae9ce;
     padding: 10px;
-}
-
-button {
-    background-color: #f6f5de;
-    border: none;
-    color: #100000;
-    text-align: center;
-    font-size: 1.5em;
 }
