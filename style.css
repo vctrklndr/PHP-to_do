@@ -106,3 +106,11 @@ input[type=submit],
     background-color: #eae9ce;
     padding: 10px;
 }
+
+button {
+    background-color: #f6f5de;
+    border: none;
+    color: #100000;
+    text-align: center;
+    font-size: 1.5em;
+}

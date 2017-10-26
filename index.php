@@ -33,13 +33,17 @@
                     <td>
                         <form method="POST" action="delete.php">
                             <input type="hidden" name="delete" value="<?= $to_do_list['id'] ?>" />
-                            <input type= "submit" value="Delete" />
+                            <button type= "submit" value="Delete">
+                                <i class="fa fa-trash-o" aria-hidden="true"></i>
+                            </button>
                         </form>
                     </td>
                     <td>
                         <form method="POST" action="complete.php">
                             <input type="hidden" name="completed" value="<?= $to_do_list['id'] ?>" />
-                            <input type= "submit" value="Done" />
+                            <button type= "submit" value="Done">
+                                <i class="fa fa-check" aria-hidden="true"></i>
+                            </button>
                         </form>
                     </td>
                 </tr>
@@ -64,7 +68,7 @@
                 <div class="button_container">
                     <input type="submit" value="Add" />
                     <div class="reload">
-                        <a href="index.php">Refresh</a>
+                        <a href="index.php"><i class="fa fa-refresh" aria-hidden="true"></i></a>
                     </div>
                 </div><!-- button container -->
             </form>
@@ -81,7 +85,9 @@
                 <td>
                     <form method="POST" action="delete.php">
                         <input type="hidden" name="delete" value="<?= $to_do_list['id'] ?>" />
-                        <input type= "submit" value="Delete" />
+                        <button type= "submit" value="Delete">
+                                <i class="fa fa-trash-o" aria-hidden="true"></i>
+                            </button>
                     </form>
                 </td>     
             </tr>
