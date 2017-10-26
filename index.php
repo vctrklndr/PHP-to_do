@@ -1,12 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
+    <?php
+        require 'head.php';
+        require 'database.php';
+        require 'add.php';
+        require 'delete.php';
+        require 'complete.php';
+    ?>
+    <header>
+        <h1>I have so much stuffz to do!</h1>
+    </header>
+
+    <main>
+
+    </main>
 </body>
 </html>
