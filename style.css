@@ -1,0 +1,31 @@
+body{
+    margin: 0px auto;
+    background-color: #fcf0da;
+    font-family: 'ITC Avant Garde Gothic';
+    width: 100%;
+}
+
+.success_message{
+    display: flex;
+    justify-content: center;
+}
+
+.list_wrapper{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+.list_container{
+    border: 1px solid blue;
+    display: flex;
+}
+
+.list_title{
+    width: 300px;
+    text-align: left;
+}
+
+.list{
+    width: 200px;
+    text-align: left;
+}
