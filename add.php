@@ -6,5 +6,5 @@ if ( isset($_POST['title'])) {
         ':title' => $_POST['title'],
         ':createdBy' => $_POST['createdBy']
         ));
-    $_SESSION ['success']='<div class="new_post"><h3>Ny sak att göra!</h3></div>';
+    $_SESSION ['success']='<div class="new_post_message"><h3>Ny sak att göra!</h3></div>';
 }

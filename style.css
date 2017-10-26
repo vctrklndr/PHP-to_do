@@ -2,7 +2,66 @@ body{
     margin: 0px auto;
     background-color: #fcf0da;
     font-family: 'ITC Avant Garde Gothic';
+    text-align: center;
     width: 100%;
+}
+
+.reload a,
+.reload a:hover{
+    color: #fff4e0;
+    text-decoration: none;
+}
+
+a, a:hover{
+    color: #100000;
+    text-decoration: none;
+}
+
+table{
+    margin: 0px auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.title, .author{
+    padding-right: 40px;
+}
+
+.button_container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text], 
+input[type=submit], 
+.reload{
+    background-color: #100000;
+    border: 1px solid #100000;
+    font-family: 'ITC Avant Garde Gothic';
+    color: #fff4e0;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 10px;
+}
+
+input[type=submit], 
+.reload{
+    background-color: #f05239;
+    border: 1px solid #f05239;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.reload{
+    color: #fff4e0;
+    margin-left: 5px;
+}
+
+.entry{
+    font-size: 1em;
+    font-weight: bold;
+    padding-right: 20px;
 }
 
 .success_message{
@@ -10,22 +69,14 @@ body{
     justify-content: center;
 }
 
-.list_wrapper{
-    border: 1px solid red;
-    display: flex;
-    justify-content: center;
-}
-.list_container{
-    border: 1px solid blue;
-    display: flex;
-}
-
-.list_title{
+.new_post_message{
     width: 300px;
-    text-align: left;
+    background-color: #fff;
+    margin-bottom: 20px;
 }
 
-.list{
-    width: 200px;
-    text-align: left;
+.footer{
+    margin-top: 40px;
+    background-color: #fae5c2;
+    padding: 10px;
 }
